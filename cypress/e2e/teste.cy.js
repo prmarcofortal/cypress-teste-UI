@@ -1,0 +1,28 @@
+
+describe('Testar a Página de login', () => {
+
+
+  it('Testar a tela de login', () => {
+
+
+    cy.authority()
+
+
+
+
+
+
+
+
+
+
+  //   cy.window().then((win) => {
+  //     win.localStorage.setItem('_6KlPc2BJVa0ukQEysJGK6A', '{"authority":"https://login.microsoftonline.com/7893571b-6c2c-4cef-b4da-7d4b266a0626/","uniqueId":"568ce5e8-1ca2-4167-bf82-fdc4966fe337","tenantId":"7893571b-6c2c-4cef-b4da-7d4b266a0626","scopes":["profile","openid","email","User.Read"],"account":{"homeAccountId":"568ce5e8-1ca2-4167-bf82-fdc4966fe337.7893571b-6c2c-4cef-b4da-7d4b266a0626","environment":"login.windows.net","tenantId":"7893571b-6c2c-4cef-b4da-7d4b266a0626","username":"C0667002@vale.com","localAccountId":"568ce5e8-1ca2-4167-bf82-fdc4966fe337","name":"Nathalia Figueiredo_CONTR","idTokenClaims":{"aud":"0c050f6e-bcf4-4a66-a9e6-c0939e955351","iss":"https://login.microsoftonline.com/7893571b-6c2c-4cef-b4da-7d4b266a0626/v2.0","iat":1686752277,"nbf":1686752277,"exp":1686756177,"name":"Nathalia Figueiredo_CONTR","nonce":"1dde976a-ed9e-48ef-a5d5-b03b9ce5830c","oid":"568ce5e8-1ca2-4167-bf82-fdc4966fe337","preferred_username":"C0667002@vale.com","rh":"0.AQ8AG1eTeCxs70y02n1LJmoGJm4PBQz0vGZKqebAk56VU1EPAIM.","roles":["Administrador"],"sub":"vKzKZIhIDYCPPiqCLWqh3hITps2_4eeyrSB8S0XQAhA","tid":"7893571b-6c2c-4cef-b4da-7d4b266a0626","uti":"dVwihQokjU6j_SG9P2cjAA","ver":"2.0"}},"idToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwYzA1MGY2ZS1iY2Y0LTRhNjYtYTllNi1jMDkzOWU5NTUzNTEiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vNzg5MzU3MWItNmMyYy00Y2VmLWI0ZGEtN2Q0YjI2NmEwNjI2L3YyLjAiLCJpYXQiOjE2ODY3NTIyNzcsIm5iZiI6MTY4Njc1MjI3NywiZXhwIjoxNjg2NzU2MTc3LCJuYW1lIjoiTmF0aGFsaWEgRmlndWVpcmVkb19DT05UUiIsIm5vbmNlIjoiMWRkZTk3NmEtZWQ5ZS00OGVmLWE1ZDUtYjAzYjljZTU4MzBjIiwib2lkIjoiNTY4Y2U1ZTgtMWNhMi00MTY3LWJmODItZmRjNDk2NmZlMzM3IiwicHJlZmVycmVkX3VzZXJuYW1lIjoiQzA2NjcwMDJAdmFsZS5jb20iLCJyaCI6IjAuQVE4QUcxZVRlQ3hzNzB5MDJuMUxKbW9HSm00UEJRejB2R1pLcWViQWs1NlZVMUVQQUlNLiIsInJvbGVzIjpbIkFkbWluaXN0cmFkb3IiXSwic3ViIjoidkt6S1pJaElEWUNQUGlxQ0xXcWgzaElUcHMyXzRlZXlyU0I4UzBYUUFoQSIsInRpZCI6Ijc4OTM1NzFiLTZjMmMtNGNlZi1iNGRhLTdkNGIyNjZhMDYyNiIsInV0aSI6ImRWd2loUW9ralU2al9TRzlQMmNqQUEiLCJ2ZXIiOiIyLjAifQ.mW0NvUPjLiL-ziFENILac6v1p5YbEbM_aDy5skxo0gSDn6fjtJ-zNnRmnaL1psB4P5JKAw_gZJ7sm0Ql0a2M25zwOByHzJAsyk4YPvkc1fP8x0FFq9ldQd8w3PZ8rQc5ei4lX7mxA6RfyCaecpRHoSFSRi2_hE-ivmgHkATMZ2BsO_7cCe7zQKPGGppWw1jKZk7b8htqEv4V09E1M84EChrT-qwHeWcjLS2X9OFVst1Q5hK0fw790Pl7O8SfEz2Mk4kMbUUPgtYmNsDrUGr90yvunIMrBTR56o5rVViMr_rVOajy1UH-MofXwjRXF0F8HLqZ5ROX_VRm-myz-am-_w","idTokenClaims":{"aud":"0c050f6e-bcf4-4a66-a9e6-c0939e955351","iss":"https://login.microsoftonline.com/7893571b-6c2c-4cef-b4da-7d4b266a0626/v2.0","iat":1686752277,"nbf":1686752277,"exp":1686756177,"name":"Nathalia Figueiredo_CONTR","nonce":"1dde976a-ed9e-48ef-a5d5-b03b9ce5830c","oid":"568ce5e8-1ca2-4167-bf82-fdc4966fe337","preferred_username":"C0667002@vale.com","rh":"0.AQ8AG1eTeCxs70y02n1LJmoGJm4PBQz0vGZKqebAk56VU1EPAIM.","roles":["Administrador"],"sub":"vKzKZIhIDYCPPiqCLWqh3hITps2_4eeyrSB8S0XQAhA","tid":"7893571b-6c2c-4cef-b4da-7d4b266a0626","uti":"dVwihQokjU6j_SG9P2cjAA","ver":"2.0"},"accessToken":"eyJ0eXAiOiJKV1QiLCJub25jZSI6IlpZdUJUWUZQLXloZXVIelVoRFZXVHpXOW9GZTBsdFhPcGkzaGNUYWg4UXciLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC83ODkzNTcxYi02YzJjLTRjZWYtYjRkYS03ZDRiMjY2YTA2MjYvIiwiaWF0IjoxNjg2NzUyMjc3LCJuYmYiOjE2ODY3NTIyNzcsImV4cCI6MTY4Njc1NjYzOCwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFUUUF5LzhUQUFBQVJpM3JrbkhuN1hFY2pTTUMvT0tnek01dSt2aWJ0a080MjhZeGo3V2krZTRJd2swaU5tL1c3clFoYnlBRFp3RHoiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6IkdCUCAtIEdCeVBhc3MgT0FVVEggLSBRQSIsImFwcGlkIjoiMGMwNTBmNmUtYmNmNC00YTY2LWE5ZTYtYzA5MzllOTU1MzUxIiwiYXBwaWRhY3IiOiIwIiwiZmFtaWx5X25hbWUiOiJGaWd1ZWlyZWRvX0NPTlRSIiwiZ2l2ZW5fbmFtZSI6Ik5hdGhhbGlhIiwiaWR0eXAiOiJ1c2VyIiwiaXBhZGRyIjoiMTc3LjMuMTQ3LjI0IiwibmFtZSI6Ik5hdGhhbGlhIEZpZ3VlaXJlZG9fQ09OVFIiLCJvaWQiOiI1NjhjZTVlOC0xY2EyLTQxNjctYmY4Mi1mZGM0OTY2ZmUzMzciLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMTE2MTk3NTg5OC0zMDIzNjE5MjI0LTg5MDEzNzQ5OC0xMjYxNDE2IiwicGxhdGYiOiIzIiwicHVpZCI6IjEwMDMyMDAyQTAxQjM1NDMiLCJyaCI6IjAuQVE4QUcxZVRlQ3hzNzB5MDJuMUxKbW9HSmdNQUFBQUFBQUFBd0FBQUFBQUFBQUFQQUlNLiIsInNjcCI6IlVzZXIuUmVhZCBwcm9maWxlIG9wZW5pZCBlbWFpbCIsInNpZ25pbl9zdGF0ZSI6WyJrbXNpIl0sInN1YiI6IjBMeFc0NzN5RTFTVEF0eUU1SkNYcVNkT0ItS2pzZHpVOGdHT3h5T2c4NjQiLCJ0ZW5hbnRfcmVnaW9uX3Njb3BlIjoiU0EiLCJ0aWQiOiI3ODkzNTcxYi02YzJjLTRjZWYtYjRkYS03ZDRiMjY2YTA2MjYiLCJ1bmlxdWVfbmFtZSI6IkMwNjY3MDAyQHZhbGUuY29tIiwidXBuIjoiQzA2NjcwMDJAdmFsZS5jb20iLCJ1dGkiOiJkVndpaFFva2pVNmpfU0c5UDJjakFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXSwieG1zX3N0Ijp7InN1YiI6InZLektaSWhJRFlDUFBpcUNMV3FoM2hJVHBzMl80ZWV5clNCOFMwWFFBaEEifSwieG1zX3RjZHQiOjEzODcyOTY3NDR9.cDcMy-LwrImvHFmkY9IG3r5RW5bb-b3AcKK8hYkQriIUYO6lnYeWiTRGjC2f72lgmXocrVoCnJlS_H-J7x9cA01DussuxY9k0YD90Q9TNPtevnU3CN83oIud7Ymu9fT5J-coWBV4Td8ThrtDgIfRF0rq1rSeeSwyymd4InV399UMNGvdm9ubzn1G8rc2emAyJzq4-h90-uXB9-lm7QWmqFWGumnjkibHA0t67GJW7M3WQ2JLz4M6CjaA5ta_uHr0gXLw4SiDCvkxBJDdLh54Y2I0ampNZLvxDqirslCNkGlRvhJI84uQdGSswdTbmWqqHIAzIFIuRqGg-9WFc-WZ0g","fromCache":false,"expiresOn":"2023-06-14T15:30:37.000Z","correlationId":"da105b0b-cb5f-4052-a7e8-c9bc538452b8","requestId":"85225c75-240a-4e8d-a3fd-21bd3f672300","extExpiresOn":"2023-06-14T16:38:17.000Z","familyId":"","tokenType":"Bearer","state":"","cloudGraphHostName":"","msGraphHost":"","fromNativeBroker":false}');
+      
+  //   });
+
+  //   cy.visit('https://victorious-coast-02af53f0f.2.azurestaticapps.net/#/pages/request').wait(3000)
+
+   
+  })
+})
