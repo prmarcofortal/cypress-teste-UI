@@ -12,10 +12,12 @@ A estrutura demonstra os seguintes casos de uso
 -[] Usando fixure para ler os dados
 -[] Testes dinâmicos baseados nos dados de entrada ou executam o mesmo teste com conjuntos de dados diferentes 
 -[] Como a paralização pode ser alcançada sem usar o Cypress Dashboard
+
 Clonar repositório
 -[][Criar] Pasta em sua máquina local
 -[] Clonar repositório usando o comando abaixo
 -[] clone do git https://github.com/prmarcofortal/cypress-teste-UI
+
 Execute testes de sua máquina
 -[]Por favor, certifique-se de ter a versão 13.13.2 ou superior instalado.
 -[]Abra o projeto usando VS Code e Open Terminal
